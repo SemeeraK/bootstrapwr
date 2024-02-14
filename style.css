@@ -62,7 +62,7 @@ padding-left: 20px;
                 transform: scale(1.01);
             }
             
-.model{
+.fix{
     /* margin-top: 40px; */
     /* background-color: bisque; */
     position: fixed;
@@ -71,11 +71,11 @@ padding-left: 20px;
     margin-bottom: 15px;
     
 }
-.model:hover{
+.fix:hover{
     transform: scale(1.1);
     box-shadow: rgba(0, 0, 0, 24) 0px 3px 8px;
 }
-.model{
+.fix{
     position: fixed;
     bottom: 20px;
     right: 20px;
