@@ -6,7 +6,7 @@
     font-family: 'Poppins', sans-serif;
    overflow-x: clip; 
 }
-.nav-link{
+/* .nav-link{
     cursor: pointer;
     position: relative;
     color: rgb(23, 3, 42);
@@ -30,7 +30,7 @@ transition: all .5s;
 .img1{
     display: none;
 }
-}
+} */
 .bow1{
 /* background-color: antiquewhite; */
 padding-left: 20px;
