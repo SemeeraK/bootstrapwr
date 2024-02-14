@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-gadget</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"> -->
+    <link rel="stylesheet" href="./style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<style>
+
+</style>
+
+</head>
+<body>
+    <!-- <nav class="f-container ">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis exercitationem quas ullam voluptas architecto quasi in at fugiat perferendis quos dicta beatae, deserunt sit id excepturi eius error ex eos!</p>
+    </nav> -->
+    <nav class="navbar navbar-expand-lg gx-0 " style="background-color: rgba(211, 205, 205, 0.912) ;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+  
+            <i class="fa-brands fa-erlang" style="color: #080808;"></i>-Gadgets</a>
+          <button class="navbar-toggler active" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link  " aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#">Contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  categories
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Air Dops</a></li>
+                  <li><a class="dropdown-item" href="#">Headphones</a></li>
+                  <li><a class="dropdown-item" href="#">Smart Wathes</a></li>
+                  <li><a class="dropdown-item" href="#">Charger</a></li>
+
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+                
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">
+
+                    <i class="fa-regular fa-user" aria-hidden="true" style="color: #0d0d0d;"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">
+
+                    <i class="fa-sharp fa-solid fa-cart-shopping" style="color: #111213;"></i>
+              </li>
+
+
+            </ul>
+            <!-- <form class="d-flex" role="search"> 
+                
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+             </form>  -->
+          </div>
+        </div>
+      </nav>
+      <!-- end navbar -->
+      <!-- start corosel -->
+      <div class="s-container ">
+        <div class="row">
+            <div class="col-lg-12">
+                <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="./pictures/pr4.webp" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <!-- <h5>The Heart Of Sound</h5>
+                          <p>Some representative placeholder content for the first slide.</p> -->
+                        </div>
+                      </div>
+                      <div class="carousel-item" data-bs-interval="2000">
+                        <img src="pictures/pr5.webp" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <!-- <h5>Second slide label</h5>
+                          <p>Some representative placeholder content for the second slide.</p> -->
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./pictures/pr20.webp" class="d-block w-100" alt="..." >
+                        <div class="carousel-caption d-none d-md-block">
+                          <h1 style="color: darkred;">True Wireless Earbuds</h1>
+                          <h2>Designed For Your <span style="color: rgb(255, 123, 0);">Quality Music</span></h2>
+                        </div>
+                      </div>
+                      <!--  -->
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+
+        </div>
+
+      </div>
+      <!-- end of carousel -->
+      <!-- <div class="gif-container">
+        <div class="row">
+          <div class="col-12">
+            <img src="./pictures/prr11.webp" alt="">
+          </div>
+        </div>
+
+      </div> -->
+      <!--  -->
+      <div class="pop-container shadow-lg p-3 mb-5 bg-body-tertiary rounded ms-auto ">
+        <div class="row">
+          <div class="col-lg-12 col-md-6">
+            <img class="img1" src="./pictures/p1o.webp" alt="" >
+          </div>
+        </div>
+        <marquee behavior="" direction="">
+        <h3>
+          BEST
+          <small class="text-body-secondary">SELLERS</small>
+        </h3>
+        
+      </marquee>
+      <div class="pp-container">
+        <div class="row shadow-lg p-3 mb-5 bg-body-tertiary rounded ms-auto">
+          <div class="bow1 col-lg-3 col-md-6">
+            <div class="card" style="width: 18rem;">
+              <img src="./pictures/prr1.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Wave Call</h5>
+                <p class="card-text">$199 </p>
+                <i class=" cart fa-sharp fa-solid fa-cart-shopping" style="color: #111213;"></i>
+                <a href="#" class="btn btn-outline-primary">Buy Now</a>
+              </div>
+            </div>
+            
+<!-- <img src="./pictures/prr1.webp" alt=""> -->
+          </div>
+          <div class="bow2 col-lg-3 col-md-6">
+            <div class="card" style="width: 18rem;">
+              <img src="./pictures/prr2.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Activity Tracker</h5>
+                <p class="card-text">$199 </p>
+                <i class=" cart fa-sharp fa-solid fa-cart-shopping" style="color: #111213;"></i>
+
+                
+                <a href="#" class="btn btn-outline-primary">Buy Now</a>
+              </div>
+            </div>
+
+          </div>
+          <div class="bow3 col-lg-3 col-md-6">
+            <div class="card" style="width: 18rem;">
+              <img src="./pictures/prr4.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">BT-Calling</h5>
+                <p class="card-text">$199 </p>
+                <i class=" cart fa-sharp fa-solid fa-cart-shopping" style="color: #111213;"></i>
+
+                
+                <a href="#" class="btn btn-outline-primary">Buy Now</a>
+              </div>
+            </div>
+
+          </div>
+          <div class="bow4 col-lg-3 col-md-6">
+            <div class="card" style="width: 18rem;">
+              <img src="./pictures/prr5.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Xtend</h5>
+                <p class="card-text">$199 </p>
+                <i class=" cart fa-sharp fa-solid fa-cart-shopping" style="color: #111213;"></i>
+
+                
+                <a href="#" class="btn btn-outline-primary">Buy Now</a>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+      </div>
+      <!--  -->
+      <div class="model">
+        <div class="m-container text-center">
+          <!-- Button trigger modal -->
+<button type="button" class="btn btn-black" fixed-btn data-bs-toggle="modal" data-bs-target="#exampleModal">
+  <i class="fa-solid fa-2x fa-message"></i>
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Welcome to e-Gadgets Prime Membership </h1><br>
+        <!-- <p>Fill the Following details for Subscription</p> -->
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body me-auto">
+    
+
+        <input placeholder="Name" type="text" name="" id="">
+        <hr>
+        <input placeholder="Number" type="tel" name="" id="">
+        <hr>
+        <input placeholder="email" type="email">
+
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+        </div>
+
+      </div>
+      <!-- grid -->
+<!-- end of grid -->
+<!-- card using grid -->
+<section class="box2">
+    <div class="c-container shadow-lg p-3 mb-5 bg-body-tertiary rounded " style="border: solid rgba(196, 190, 190, 0.692); ">
+        <div class="bst">
+            <h2 class="bst1">
+                 CATEGORIES
+            </h2>
+          </div>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col ">
+                  
+                  <div class="card1 ">
+                    <img src="./pictures/pr14.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Earbuds</h5>
+                      <button type="button" class="btn btn-outline-warning">Show More</button>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card2">
+                    <img src="./pictures/pr7.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Smart Watch</h5>
+                      <button type="button" class="btn btn-outline-warning">Show More</button>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card3">
+                    <img src="./pictures/pr11.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Wireless Speakers</h5>
+                      <button type="button" class="btn btn-outline-warning">Show More</button>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card4">
+                    <img src="./pictures/pr17.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Headphones</h5>
+                      <button type="button" class="btn btn-outline-warning">Show More</button>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                    <div class="card5">
+                      <img src="./pictures/pr16.webp" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Party Speakers</h5>
+                        <button type="button" class="btn btn-outline-warning">Show More</button>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card6">
+                      <img src="./pictures/pr15.webp" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Neck Bands</h5>
+                        <button type="button" class="btn btn-outline-warning">Show More</button>
+                        
+
+                      </div>
+                    </div>
+                  </div>
+
+  
+              </div>
+            
+
+        
+
+    </div>
+
+</section>
+<!-- <div></div> -->
+<!--  -->
+<div class="container">
+  <div class="row shadow-lg p-3 mb-5 bg-body-tertiary rounded ">
+    <div class="col-lg-6 col-md-12">
+      <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./pictures/pr23.jpeg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./pictures/pr22.jpeg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./pictures/pr24.jpeg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div class="col-lg-6 col-md-12">
+      <h2 class="hr">Unlock Benefits: Register your  <br>Audio Products Today! </h2>
+      <!-- <p class="hrp">Register your products for a chance to win sony products,track warranty and get firmware updates</p> -->
+
+    </div>
+  </div>
+
+</div>
+<!---->
+<div class="box3">
+  <div class="main-container">
+    <div class="row">
+      <iframe width="914" height="514" src="https://www.youtube.com/embed/_pUrjmQxveU" title="beatXP Unbound Smartwatch—1.78&quot; Super AMOLED Display Smartwatch with BT Calling &amp; Always On Display" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <!-- <img src="./pictures/pr18.webp" alt=""> -->
+    </div>
+  </div>
+
+</div>
+<!--  -->
+<div class="bf-container">
+  <div class="row">
+    <div class="col-lg-12">
+      <img src="./pictures/pr2" alt="">
+
+    </div>
+
+  </div>
+
+</div>
+<!--footer  -->
+<div class="footer">
+  <div class="foot-container">
+    <div class="row">
+      <div class="col-4">
+        <h3>About Us</h3>
+        <p>Privacy Policy</p>
+        <p>Cookie Ploicy</p>
+        <p>Terms and Conditions</p>
+      </div>
+      <div class="col-4">
+        <h3>Subscribe</h3>
+        <p>Lorem ipsum dolor sit, amet.</p>
+        <div class="sub">
+          <input type="text" placeholder="Enter your email..">
+          <i class="fa-solid fa-at"></i>
+        </div>
+
+        <!-- <h3 >Support</h3>
+        <p>Order Status</p>
+        <P>Shipping & Delivery Policy</P>
+        <p>Refund & Cancellation Policy</p>
+        <P>Product Support</P> -->
+
+      </div>
+      <div class="col-4">
+
+        <h3>Shope</h3>
+        <p>Wireless Headhone</p>
+        <p>Speakers</p>
+        <p>Earbuds</p>
+        <p> Smart Watches</p>
+        
+        <!-- <div class="sub"> -->
+          <!-- <input type="text" placeholder="Enter your email.."> -->
+          <!-- <i class="fa-solid fa-arrow-right"></i> -->
+        <!-- </div> -->
+
+      </div>
+      
+    </div>
+  </div>
+
+</div>
+<div class="i-container text-center">
+  <div class="row">
+    <div class="social">
+      <i class="fa-brands fa-2x fa-facebook" style="color: rgb(31, 77, 185);"></i>
+      <i class="fa-brands fa-2x  fa-youtube" style="color: rgb(123, 4, 4);" ></i>
+      <i class="fa-brands fa-2x fa-x-twitter" style="color: #00040a;"></i>
+      <!-- <i class="fa-brands fa-3x  fa-twitter"></i> -->
+      <i class="fa-brands fa-2x  fa-square-instagram" style="color: rgb(149, 15, 116);"></i>
+    </div>
+
+
+  </div>
+
+</div>
+</body>
+</html>
